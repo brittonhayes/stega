@@ -1,11 +1,11 @@
-# Stega
+# Stega 🩻
 
 Stega is a command line tool that allows you to embed text into images.
 
 ## Installation
 
 ```bash
-go get github.com/brittonhayes/stega
+go install github.com/brittonhayes/stega/cmd/stega@latest
 ```
 
 ## Usage

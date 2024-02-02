@@ -9,10 +9,17 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
+var (
+	version = "dev"
+	commit  = "xxx"
+	date    = "xxx"
+)
+
 func main() {
 	app := &cli.App{
-		Name:  "stega",
-		Usage: "Embed text into images",
+		Name:    "stega",
+		Usage:   "Embed text into images",
+		Version: version,
 		Commands: []*cli.Command{
 			{
 				Name:  "encode",

@@ -1,6 +1,8 @@
 # Stega 🩻
 
-Stega is a command line tool that allows you to embed text into images.
+Stega is a command line tool that allows you to embed text into images using LSB steganography.
+
+<img src='.github/assets/stega-no-bg.png' width='350px'>
 
 ## Installation
 
